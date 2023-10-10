@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 500% 5000%;
+    animation: gradient 10s ease infinite;
+    }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    }
+.text{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+h1{
+    font-size: 280px;
+    color: #1d2d4b;
+}
+
+@media (min-width: 320px) { 
+
+    .clock{
+        font-size:70px;
+    }
+
+}
+
+@media (min-width: 420px) { 
+
+    .clock{
+        font-size:100px;
+    }
+
+}
+
+@media (min-width: 576px) { 
+
+    .clock{
+        font-size:150px;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .clock{
+        font-size:180px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .clock{
+        font-size:210px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .clock{
+        font-size:260px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .clock{
+        font-size:300px;
+    }
+}
